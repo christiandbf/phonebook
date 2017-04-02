@@ -1,0 +1,22 @@
+body {
+    font-family: 'Exo', sans-serif;
+    background: #dee2e6;
+}
+
+.container {
+    margin-top: 2em;    
+}
+
+#main-table-contacts {
+    margin: 2em;
+}
+
+#table-contacts {
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;    
+}
+
+#contacts-showtable {
+    margin: 2em;
+}

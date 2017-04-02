@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>PhoneBook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="Christian Barrios">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>    
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <!--header-->
+                <div class="header">
+                    <div class="row">
+                        <header>
+                            <div class="col-xs-12 text-center">
+                                <h1 class="animated bounce">Phone Book</h1>
+                                <p>Add your contacts and see them later</p>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+                <!--header-->
+            </div>
+
+            <div class="panel-body">
+                <section>
+                    <!--form-->
+                    <div class="text-center">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></span>
+                                    <input id="contact-name" class="form-control" type="text" placeholder="Enter contact name" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></span>
+                                    <input id="contact-number" class="form-control" type="text" placeholder="Enter contact number" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <button id="contact-save" type="button" class="btn btn-primary">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!--form-->
+
+                    <!--table-->
+                        <main id="main-table-contacts">
+                            <div id="table-contacts" class="hide">
+                                <div class="row">
+                                    <div class="col-xs-12 col-md-8 col-md-offset-2">                                                    
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Number</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="table-contacts-values">
+                                            
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div id="contacts-showtable" class="text-center">
+                                <button id="contacts-show" type="button" class="btn btn-primary">Show contacts</button>
+                            </div>                
+                        </main>
+                    <!--table-->
+                </section>
+            </div>
+
+            <div class="panel-footer">
+                <!--footer-->
+                <div id="footer-authorinfo">
+                    <footer class="text-center">
+                        <p>coded by <a href="https://github.com/christiandbf" target="_blank">christiandf</a></p>
+                    </footer>
+                </div>
+                <!--footer-->
+            </div>
+        </div>        
+    </div>    
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./public/js/models.js"></script>
+    <script src="./public/js/views.js"></script>
+    <script src="./public/js/controller.js"></script>
+</body>
+
+</html>
