@@ -1,6 +1,8 @@
-# Agenda de contactos en HTML5.
+# PhoneBook.
 
-**PhoneBOOK**
-Proyecto para practicar POO, ECMA6, Bootstrap y manipulación del DOM.
+Phone Book.
+Practicing: POO, MVC, ECMA6, Bootstrap y DOM.
 
-[click here](http://link)
+Author: Christian Barrios
+
+[click here](https://christiandbf.github.io/phonebook/)
